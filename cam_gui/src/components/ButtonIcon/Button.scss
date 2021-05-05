@@ -1,0 +1,21 @@
+@import '../../styles/Variables.scss';
+
+.stdBtn {
+  background: $buttonColor;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  height: 7rem;
+  width: 7rem;
+}
+
+.stdBtn:hover, .stdBtn:focus {
+  background: $buttonColorHovered;
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Body",
+    "value": "body",
+    "description": "Beschreibung zum Body",
+    "operations": "= ,!= ,in ,!in"
+  },
+  {
+    "name": "Make",
+    "value": "make",
+    "description": "Beschreibung zum Body",
+    "operations": "=,!=,in,!in"
+
+  },
+  {
+    "name": "Model",
+    "value": "model",
+    "description": "Beschreibung zum Body",
+    "operations": "=,!=,in,!in"
+  },
+  {
+    "name": "Listenpreisreduzierung",
+    "value": "listpricereduction",
+    "description": "Nur bei Neuwagen und gegebenen Listenpreis und Listenpreis größe als Customerpreis vorhanden;\n",
+    "operations": "=,!=,>,>=,<,<=,><,*,!*"
+  },
+  {
+    "name": "prozentuale Listenpreisreduzierung\t",
+    "value": "listpricereductionpercent",
+    "description": "Nur bei Neuwagen und gegebenen Listenpreis und Listenpreis größe als Customerpreis vorhanden;\n",
+    "operations": "=,!=,>,>=,<,<=,><,*,!*"
+  },
+  {
+    "name": "Preisreduzierung",
+    "value": "previouspricereduction",
+    "description": "Preisreduzierung zum letzten, gültigen Preis;\n",
+    "operations": "=,!=,>,>=,<,<=,><,*,!*"
+  },
+  {
+    "name": "Preisreduzierung (Prozent)",
+    "value": "previouspricereductionpercent",
+    "description": "Nur bei Neuwagen und gegebenen Listenpreis und Listenpreis größe als Customerpreis vorhanden;\n",
+    "operations": "=,!=,>,>=,<,<=,><,*,!*"
+  }
+]

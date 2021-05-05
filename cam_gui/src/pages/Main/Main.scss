@@ -1,0 +1,45 @@
+@import '../../styles/Variables.scss';
+@import '../../styles/Global.scss';
+
+#mainSection{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#buttonContainer{
+  display: grid;
+  grid-template-areas: "a b c" "d e f" "g h i";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 60vh;
+}
+.emptyLeft{
+  grid-area: a;
+}
+.emptyRight{
+  grid-area: c
+}
+.gridCenter{
+  grid-area: e;
+}
+.emptyLeftBottom{
+  grid-area: g;
+}
+.emptyRightBottom{
+  grid-area: i
+}
+.buttonTop{
+  grid-area: b;
+}
+.buttonBottom{
+  grid-area: h
+}
+.buttonLeft{
+  grid-area: d;
+}
+.buttonRight{
+  grid-area: f
+}
+
+
